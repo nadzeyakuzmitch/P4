@@ -1,4 +1,4 @@
-# Nadzeya Nails Website | IS 117 Project Part 4, Fall 2021
+# Nadzeya Nails Website | IS 117 Project Part 4 Fall 2021
 
 In this project we had a task to create our own website based on the knowledge we got in the class. We were also instructed to use Bootstrap library to implement menus, footer and other styles, like cards and layouts. 
 
