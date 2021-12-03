@@ -1,0 +1,13 @@
+   /* DEVELOPER Nadzeya Kuzmitch, IS117-003, Fall 2021 */
+   
+   .gallery-wrapper img {
+       display: block;
+       cursor: pointer;
+       position: relative;
+       transition: transform 400ms ease-out;
+   }
+   
+   .gallery-wrapper img:hover,
+   .gallery-wrapper img:active {
+       transform: scale(1.15);
+   }

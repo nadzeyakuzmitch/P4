@@ -1,0 +1,113 @@
+<!-- DEVELOPER Nadzeya Kuzmitch, IS117-003, Fall 2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <title>Welcome | Nadzeya Nails</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+
+<body>
+    <header class="d-flex flex-column align-items-center bg-white border-bottom">
+        <nav class="container navbar navbar-expand-md navbar-light bg-white">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="./index.html">
+                    <img width="70px" src="./images/logo.png">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Procedures
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./pages/gel_removal.html">Gel Removal</a>
+                                <a class="dropdown-item" href="./pages/cuticle_care.html">Cuticle Care</a>
+                                <a class="dropdown-item" href="./pages/gel_application.html">Gel Manicure</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/gallery.html">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner-image container-fluid d-flex justify-content-center align-items-center border-bottom">
+        <div class="card">
+            <div class="card-body">
+                <span class="display-6 text-center">Learn About the Perfect Manicure</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="d-flex flex-column align-items-center bg-light py-5 mb-5">
+        <section class="container row pb-4">
+            <div class="col-md-4">
+                <div class="card my-2">
+                    <img class="card-img-top" src="./images/remove_gel.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How to remove gel polish</h5>
+                        <p class="card-text">Learn how to remove gel polish safely.</p>
+                        <a href="./pages/gel_removal.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card my-2">
+                    <img class="card-img-top" src="./images/remove_cuticle.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How to treat the cuticle</h5>
+                        <p class="card-text">Learn the easiest way of removing the cuticles.</p>
+                        <a href="./pages/cuticle_care.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card my-2">
+                    <img class="card-img-top" src="./images/uno.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">How to apply gel polish</h5>
+                        <p class="card-text">Learn how to apply gel polish correctly.</p>
+                        <a href="./pages/gel_application.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="shadow-sm fixed-bottom bg-white py-3 border-top">
+        <div class="container d-flex flex-column align-items-center">
+            <span class="text-muted text-center"><small>&copy; Nadzeya Kuzmitch 12/3/2021 | Terms Of Use | Privacy Statement</small></span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

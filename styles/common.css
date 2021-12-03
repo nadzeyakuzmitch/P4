@@ -1,0 +1,15 @@
+   /* DEVELOPER Nadzeya Kuzmitch, IS117-003, Fall 2021 */
+   
+   * {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   
+   body {
+       background-color: #f8f9fa;
+   }
+   
+   .banner-image {
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
